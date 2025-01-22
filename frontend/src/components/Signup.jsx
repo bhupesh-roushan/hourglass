@@ -6,8 +6,8 @@ import { toast } from "sonner";
 import { Link, useNavigate } from "react-router-dom";
 import { Loader2 } from "lucide-react";
 import { useSelector } from "react-redux";
-import hourglassLogo from "/Users/roro/Desktop/hourglass/frontend/src/assets/hourglassLogo.svg";
-import hourglassHomeLogo from "/Users/roro/Desktop/hourglass/frontend/src/assets/hourglassHomeLogo.svg";
+import hourglassLogo from "../images/hourglassLogo.svg";
+import hourglassHomeLogo from "../images/hourglassHomeLogo.svg";
 
 const Signup = () => {
   const [input, setInput] = useState({

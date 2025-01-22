@@ -7,8 +7,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { Loader2 } from "lucide-react";
 import { useDispatch, useSelector } from "react-redux";
 import { setAuthUser } from "@/redux/authSlice";
-import hourglassLogo from "/Users/roro/Desktop/hourglass/frontend/src/assets/hourglassLogo.svg";
-import hourglassHomeLogo from "/Users/roro/Desktop/hourglass/frontend/src/assets/hourglassHomeLogo.svg";
+import hourglassLogo from "../images/hourglassLogo.svg";
+import hourglassHomeLogo from "../images/hourglassHomeLogo.svg";
 
 const Login = () => {
   const [input, setInput] = useState({
